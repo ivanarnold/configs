@@ -1,0 +1,15 @@
+
+shell                 bash
+
+caption always           "%?%F%{= Gb}%:%{=u Rb}%?  %h %-024=%{+b} %C%a %D %d %M %Y%{= db}  %{= wb}%50=%n%f %t%{= wb}"
+hardstatus alwayslastline "%{= kR} %-Lw%{=b Kg} %n%f %t %{-}%+Lw %=%{= dd} %C%a %D %d %M %Y%{= db}"
+
+
+shelltitle "$ |bash"
+
+# navigating regions with Ctrl-arrows
+bindkey "^[[1;5D" focus left
+bindkey "^[[1;5C" focus right
+bindkey "^[[1;5A" focus up
+bindkey "^[[1;5B" focus down
+
