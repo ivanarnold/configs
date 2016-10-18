@@ -1,201 +1,258 @@
-These files are for the users to personalise their cygwin experience.
-They will never be overwritten nor automatically updated.
-'./.bashrc' -> '/home/ivan//.bashrc'
-'./.bash_profile' -> '/home/ivan//.bash_profile'
-lynx -source rawgit.com/transcode-open/apt-cyg/master/apt-cyg > apt-cyg
-install apt-cyg /bin
-apt-cyg install git wget
-apt-cyg instal gcc-g++ vim gcc-fortran make w32api-headers
-apt-cyg install gcc-g++ vim gcc-fortran make w32api-headers
-git clone https://github.com/juho-p/fatty.git
-cd fatty
-make
-cp src/fatty.exe /bin
-fatty
-vim
-which python
-xeyes
-apt-cyg install thunar
+./install.sh 
+./install.sh 
+sudo ./install.sh 
 ls
-ln -s /cygdrive/c/Users/ivan/Dropbox/ Dropbox
-cd Dropbox/Research/
+cd
 ls
-cd ELEX/
+sl
 ls
-cd brat
+c
+cd
 ls
-cd 
+cd /home
 ls
-cd /cygdrive/c/Users/ivan/
+wstart notepad
+wrum notepad
+wrun notepad
+wstart start notepad
+wstart edge
+wstart : notepad
 ls
-mkdir Recent
-mkdir Research
-ls
-cp -rf Dropbox/Research/ .
-apt-cyg install gfortran
-apt-cyg install gcc-fortran
-which f2py
-fatty
-fatty
-xeyes
+wstart : atom
+wrun : atom
+sudoapt-get install gfortran gcc g++ build-essential
+sudo apt-get install gfortran gcc g++ build-essential
+sudo apt-get install python3 python3-pip
+sudo add-apt-repository ppa:webupd8team/atom
+sudo apt-get update
+sudo apt-get install atom-dev
+sudo apt-get install atom
+sudo apt-get install libzmq3-dev pyzmq
+sudo apt-get install libzmq3-dev
+sudo pip3 install spyder numpy scipy astropy jupyter sphinx rope flake8
+sudo apt-get install python3-numpy python3-astropy python3-matplotlib python3-scipy python3-sphinx
+sudo pip3 install pyzmq
+sudo pip3 install jupyter
+sudo apt-get install vim-gtk
 vim ~/.bashrc
 source ~/.bashrc
-xeyes
-export DISPLAY=:0.0
-xeyes
-vim ~/.bashrc
-source ~/.bashrc
-xeyes
-apt-cyg install python3
-apt-cyg install python3-setuptools
-which pip3
-pip3 install spyder3
-pip3 install spyder
-spyder
-apt-cyg install pyqt4
-apt-cyg install pyqt
-apt-cyg install pyqt4 pyside
-apt-cyg install pyside
-spyder
-conda install tkinter tk
-ls
-ls
-vim ~/.bashrc
-ls
-source ~/.bashrc
-ls
-ls
-ls
-ls
-ls
-ls
-ls
-source ~/.bash_profile
-ls
-vim ~/.bash_profile
-cp ~/.bashrc ~/.bash_profile
-ls
-vim ~/.bash_profile
-vim ~/.bash_profile
-ls
 vim ~/.bashrc
 source ~/.bashrc
 ls
-cd Dropbox/Research/pec/
+(cd /tmp && git clone --depth 1 --config core.autocrlf=false https://github.com/twolfson/sexy-bash-prompt && cd sexy-bash-prompt && make install) && source ~/.bashrc
 ls
-vim ~/.minttyrc
+cd
 ls
-cd /etc/
+ln -s /mnt/c/Users/ivan/Documents/ Documents
 ls
+cd Documents
+ls
+cd GitHub/
+ls
+cd
+ln -s /mnt/c/Users/ivan/Google\ Drive/ GoogleDriveln -s /mnt/c/Users/ivan/OneDrive/ OneDrive
+ln -s /mnt/c/Users/ivan/OneDrive/ OneDrive
+ln -s /mnt/c/Users/ivan/Desktop Desktop
+ln -s /mnt/c/Users/ivan/Downloads Downloads
+ls
+ln -s /mnt/c/Users/ivan/Google\ Drive/ GoogleDrive
+ls
+cd GoogleDrive
+ls
+dircolors -p > ~/.dircolors 
+vim ~/.bashrc
+source ~/.bashrc
+ls
+LS -AL
 ls -al
+vim DIR_COLORS/
 cd
-l
+dircolors -p > ~/.dircolors 
+vim ~/.dircolors 
+source ~/.bashrc
+ls
+cd GoogleDrive
+ls
+vim ~/.dircolors 
+source ~/.bashrc
+ls
+mkdir Research
+rm -rf Research/
 cd
 ls
-rm -rf fatty/
-rm -rf cp apt-cyg Dropbox
+xeyes
+sudo apt-get install x11-apps
+xeyes
+xeyes
+gvimn
+sudo apt-get install vim-gtk
+gvim
+atom
+sudo add-apt-repository ppa:webupd8team/sublime-text-3
+spoon666
+sudo apt-get update
+sudo apt-get install sublime3
+sudo apt-get install sublime-text-installer
+subl
+sudo apt-get install thunar
+sudo apt-get install thunarsubl
+subl
+sudo apt-get install xfce4
+subl
+wstart : notepad
 ls
-ln -ls /cygdrive/c/Users/ivan/Dropbox/ Dropbox
-ln -s /cygdrive/c/Users/ivan/Dropbox/ Dropbox
-ln -s /cygdrive/c/Users/ivan/Desktop Desktop
-ln -s /cygdrive/c/Users/ivan/Downloads/ Downloads
-ln -s /cygdrive/c/Users/ivan/Documents Documents
-cp Desktop/minttyrc ~/.minttyrc
-which python
-which python3
-apt-cyg install python3-setuptools
-pip3 install astropy
+sudo apt-get install xclip screen
+screen
+sudo screen
+screen
+exit
+vim ~/.tmux.conf
+exit
+screen
+rm /var/run/screen -R -f
+chmod 0777 /var/run
+sudo chmod 0777 /var/run
+screen
+sudo apt-get install tmux
+tmux
+tmux
+ipython
 ls
+cd
 ls
-mkdir ~/.bash
-cd .bash
-git clone git://github.com/jimeh/git-aware-prompt.git
-apt-cyg install git
-git clone git://github.com/jimeh/git-aware-prompt.git
-vim ~/.bashrc
+cd
+la
 ls
-vim ~/.bashrc
-vim ~/.bashrc
-vim ~.,bashrc
-vim ~/.bashrc
-ls
-vim ~/.bashrc
-vim ~/.bashrc
-source ~/.bashrc
-ls
-source ~/.bashrc
-vim ~/.bashrc
-source ~/.bashrc
-vim ~/.bashrc
-vim ~/.bashrc
-source ~/.bashrc
-ls
-cd Dropbox/Research/
-ls
-cd pec/
-ls
-cd ../
-ls
-cd ELEX/
-ls
-git
-vim ~/.bashrc
-cd /git
-ls
-cd /bin
-ls
-cd git
 which git
-ls -al git
-vim ~/.bashrc
 cd
-ls
-dcd Dropbox
-ls
-cd Dropbox
-ls
 cd Research/
 ls
-cd ELEX/
+git clone htpps://github.com/ivanarnold/Publications.git
+git clone https://github.com/ivanarnold/Publications.git
+cd Publications/
 ls
-cd brat
+cd EX_PAPER/
+cd ../
+ls
+cd ../
+git clone https://github.com/ivanarnold/brat.git
+git clone https://github.com/AUAMO/pec_208.git
+git clone https://github.com/ivanarnold/thesis.git
+git clone https://github.com/ivanarnold/branch.git
+ipython3
+ls
+vim
+vim
+vim ~/.vimrc
+ls
+ls
+spyder
+pip3 install pyqt
+sudo pip3 install pyqt
+sudo apt-get install pyqt5
+sudo pip3 install pyqt5
+pip3 install spyder
+sudo apt-get install spyder3
+sudo apt-get install geany geany-plugins
+sudo apt-get install xfce4-terminal
+geany
+geany &
+geany &
+geany &
+sudo apt-get install xfce4
+sudo apt-get install xfce4-desktop
+vim
+:q!
+ls
+ipython3
+vim
+sudo add-apt-repository ppa:mystic-mirage/pycharm
+sudo apt-get update
+sudo apt-get install pycharm-community
+sudo apt-get install pycharm
+pycharm &
+sudo apt-get remove pycharm --purge
+sudo add-apt-repository --remove ppa:mystic-mirage/pycharm
+sudo sed -i 's$<listen>.*</listen>$<listen>tcp:host=localhost,port=0</listen>$' /etc/dbus-1/session.conf
+vim ~/.vimrc
+cd ~/.vim/bundle/
+git clone git://github.com/jpalardy/vim-slime.git
+cd ~/Research/brat/
+vim brat.py
+tmux
+exit
+ipython3
+import matplotlib.pyplot as pl
+from mypy_local import read_adf04
+import numpy as np
+from branch import csec
+ipython3
+ipython3
+vim ~/.vimrc
+ls
+vim ~/.vimrc
+cd vim
 ls
 ls -al
-git clone https://github.com/magicmonty/bash-git-prompt.git .bash-git-prompt --depth=1
- # Set config variables first
-   GIT_PROMPT_ONLY_IN_REPO=1
-   # GIT_PROMPT_FETCH_REMOTE_STATUS=0   # uncomment to avoid fetching remote status
-   # GIT_PROMPT_SHOW_UPSTREAM=1 # uncomment to show upstream tracking branch
-   # GIT_PROMPT_SHOW_UNTRACKED_FILES=all # can be no, normal or all; determines counting of untracked files
-   # GIT_PROMPT_STATUS_COMMAND=gitstatus_pre-1.7.10.sh # uncomment to support Git older than 1.7.10
-   # GIT_PROMPT_START=...    # uncomment for custom prompt start sequence
-   # GIT_PROMPT_END=...      # uncomment for custom prompt end sequence
-   # as last entry source the gitprompt script
-   # GIT_PROMPT_THEME=Custom # use custom theme specified in file GIT_PROMPT_THEME_FILE (default ~/.git-prompt-colors.sh)
-   # GIT_PROMPT_THEME_FILE=~/.git-prompt-colors.sh
-   # GIT_PROMPT_THEME=Solarized # use theme optimized for solarized color scheme
-   source ~/.bash-git-prompt/gitprompt.shvim ~/.bashrc
-vim ~/.bashrc
-vim ~/.bashrc
-source ~/.bashrc
-ls
-cd Dropbox
-cd Research/ELEX/
-vim ~.,bashrc
-vim ~/.bashrc
-vim ~/.bashrccd
+vim .vimc
+vim .vimrc
+cd ~/.vim/bundle && git clone --depth=1 https://github.com/scrooloose/syntastic.git
+vim 
+sudo apt-get install flake8
+sudo apt-get install python3-flake8
 ls
 cd
 ls
-vim ~/.bashrc
-cd Dropbox/Research/ELEX/
+cd vm
+cd .vim
+cd bundle/
 ls
 cd
-cd Dropbox/Research/ELEX/
-git commit . -m "newest changes"
-git config --global user.email "nia0001@auburn.edu"
-git config --global user.name "Ivan Arnold"
-git commit . -m "newest changes"
-git push .
-git push origin master
-git pull
+cd vim
+ls
+cd /mnt/c/Users/ivan/vim/
+ls
+cd .vim
+cd bundle
+ls
+cp nerd* ~/.vim/bundle
+cp -rf nerd* ~/.vim/bundle
+cp -rf vim fugitive ~/.vim/bundle
+cp -rf vim-fugitive ~/.vim/bundle
+cp -rf vim-gitgutter ~/.vim/bundle
+cd ~/.vim/bundle
+git clone https://github.com/fholgado/minibufexpl.vim.git
+cd ~/Research/brat/
+cd ../pec_208/
+vim pec_208.py
+vim ~/.Vimrc
+vim ~/.vimrc
+vim pec_208.p`
+vim pec_208.py
+which ssh
+pwd
+mkdir vim
+cd vim
+scp -r ivan@lewis.physics.auburn.edu:~/.vim* .
+sudo modprobe -r pcspkr
+vim ~/.bash_profile
+spurce ~/.bash_profile
+source ~/.bash_profile
+vim /etc/inputrc 
+sudo vim /etc/inputrc 
+ipython3
+cd ~/Research/pec_208/pec_208.py 
+cd ~/Research/
+ls
+cd pec_208/
+com pec_208.py 
+vim pec_208.py 
+vim pec_208.py 
+vim pec_208.py 
+vim ~/.vimrc
+tmux
+cd ~/.vim/bundle/ && git clone --recursive https://github.com/davidhalter/jedi-vim.git
+git clone https://github.com/ervandew/supertab.git
+cd ~/Research/pec_208
+vim pec_208.py
+ipython3

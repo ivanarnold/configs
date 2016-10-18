@@ -2,52 +2,43 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
-set encoding=utf-8
-set term=xterm
-set t_Co=256
-set updatetime=500
+let g:syntastic_python_checkers = ['flake8']
+
+let g:slime_target = "tmux"
+let g:slime_paste_file = "$HOME/.slime_paste"
+let g:slime_python_ipython = 1
+
 set viewoptions=cursor,folds,slash,unix
-set rtp+=~/.fzf
 let mapleader=","
-let g:auto_save = 1
-let g:auto_save_no_updatetime = 1
+set pastetoggle=<leader>v
+
 set hidden
 set number
 set laststatus=2
 set noswapfile
-set pastetoggle=<leader>v
+
 colorscheme desert
-let g:Tex_DefaultTargetFormat = 'pdf'
-let g:Tex_MultipleCompileFormats='pdf, aux'
-let g:airline#extensions#tabline#enabled = 1
-let g:airline_theme='molokai'
-let python_highlight_all=1
-let g:syntastic_always_populate_loc_list = 1
+
+
 let fortran_fold=1
 let fortran_fold_conditionals=1
 
-"highlight Normal ctermbg=232
-"au InsertEnter * hi Normal term=NONE ctermbg=235     "
-"au InsertLeave * hi Normal term=NONE ctermbg=232     "
-"
-map <leader>z :!python % <CR>
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+map <leader>z :!python3 % <CR>
 nmap <silent> <C-Up> :wincmd k<CR>
 nmap <silent> <C-Down> :wincmd j<CR>
 nmap <silent> <C-Left> :wincmd h<CR>
 nmap <silent> <C-Right> :wincmd l<CR>
 nnoremap <leader>fw :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
-nmap <leader>b :SCCompile<cr>
-nmap <leader>r :SCCompileRun<cr>
-nmap <leader>ss :VimShell<cr>
-nmap <leader>sp :VimShellPop<cr>
-nnoremap <silent> > :exe "vertical resize" . (winheight(0) * 3/2)<CR>
-nnoremap <silent> < :exe "vertical resize" . (winheight(0) * 2/3)<CR>
-nnoremap <silent> + :exe "resize " . (winheight(0) * 3/2)<CR>
-nnoremap <silent> _ :exe "resize " . (winheight(0) * 2/3)<CR>
 
-let g:diminactive_use_syntax = 1
-let g:diminactive_use_colorcolumn = 0
-hi ColorColumn ctermbg=0 guibg=#eee8d5
 
 " Detects if file has folds and shows them.
 function HasFolds()
@@ -95,18 +86,3 @@ function HasFolds()
 endfunction
 
 au CursorHold,BufWinEnter ?* call HasFolds()
-
-
-function! NumberToggle()
-  if(&rnu == 0 && &nu == 0)
-    set nu
-  elseif(&nu == 1)
-    set nonu
-    set rnu
-  else
-    set nornu
-  endif
-endfunc
-
-
-nnoremap <leader>t :call NumberToggle()<cr>
