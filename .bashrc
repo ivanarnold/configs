@@ -1,6 +1,3 @@
-alias ls='ls --color'
-
-export DISPLAY=:0.0
 # Run twolfson/sexy-bash-prompt
 . ~/.bash_prompt
 
@@ -13,3 +10,12 @@ if [ "$TERM" != "dumb" ]; then
     #alias dir='ls --color=auto --format=vertical'
     #alias vdir='ls --color=auto --format=long'
 fi
+
+
+
+alias ls='ls --color'
+alias lr='ranger --choosedir=$HOME/rangerdir;cd $(cat $HOME/rangerdir)'
+alias ipy=ipython3
+
+
+export DISPLAY=:0.0
