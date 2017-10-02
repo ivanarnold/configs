@@ -11,8 +11,13 @@
 ~Msle0~/\<New\>
 
 # Command Line History (newest to oldest):
-:q!
 :wq!
+:'<,'>+y60
+:'<,'>+
+:q!
+:q~!
+:wq
+:version
 :AirlineTheme molokai
 :AirlineTheme base16_monokai
 :AirlineTheme base16_chalk
@@ -47,6 +52,57 @@
 # Input Line History (newest to oldest):
 
 # Registers:
+"0	LINE	0
+	 0 0.000000E+00
+	-3 8.487939E-01
+	-2 8.554755E-01
+	-1 8.624341E-01
+	-2 8.752547E-01
+	 1 9.502637E-01
+	 3 9.607954E-01
+	 2 9.626369E-01
+	 1 9.670587E-01
+	 2 9.684750E-01
+	 0 9.770863E-01
+	 1 9.772852E-01
+	 2 9.786962E-01
+	 1 9.808260E-01
+	 0 9.981638E-01
+	-1 1.013904E+00
+	-2 1.015390E+00
+	-3 1.018594E+00
+	-5 1.022021E+00
+	-4 1.025124E+00
+	-3 1.029481E+00
+	-3 1.033097E+00
+	-4 1.033840E+00
+	-2 1.034249E+00
+	-2 1.037755E+00
+	-3 1.042370E+00
+	-4 1.044222E+00
+	-3 1.044750E+00
+	-1 1.046598E+00
+	-2 1.047190E+00
+	-2 1.049640E+00
+	 1 1.064758E+00
+	 3 1.065593E+00
+	 2 1.065866E+00
+	 1 1.066710E+00
+	 2 1.066780E+00
+	 0 1.068985E+00
+	-1 1.075720E+00
+	-2 1.077097E+00
+	-5 1.079036E+00
+	-3 1.079645E+00
+	 1 1.079651E+00
+	 2 1.079852E+00
+	 1 1.079904E+00
+	-4 1.081224E+00
+	 0 1.081981E+00
+	-3 1.083946E+00
+	-4 1.085337E+00
+	-2 1.087719E+00
+	 1 1.089191E+00
 "1	LINE	0
 	#map <Leader>x :w<cr>:!pandoc % \| lynx -stdin<cr>:redraw!<cr>
 "2	LINE	0
@@ -65,25 +121,30 @@
 	
 "9	LINE	0
 	
-""-	CHAR	0
+"-	CHAR	0
 	 
 
 # global variables:
 !DISPATCH_STARTS	DIC	{}
 
 # File marks:
-'0  9  23  ~/.vimrc
-'1  10  0  ~/.vimrc
-'2  11  168  ~/.vimrc
-'3  1  0  /mnt/c/Users/ivan/Dropbox/Shared Notes/JD_092117.md
-'4  1  0  ~/.tmp/vim-markdowm.md
-'5  1  0  /mnt/c/Users/ivan/Dropbox/Shared Notes/New note
-'6  2  0  /mnt/c/Users/ivan/Dropbox/Shared Notes/Test Note 2
-'7  5  28  ~/.vimrc
-'8  3  24  ~/.vimrc
-'9  1  0  ~/~.,vimrc
+'0  1  0  /mnt/c/Users/ivan/Dropbox/Research/adas_input_files/ar_0/hi_erg/omorder/omgorig_level_dat
+'1  1  0  /mnt/c/Users/ivan/Dropbox/Research/adas_input_files/ar_0/hi_erg/omorder/dord
+'2  1  0  /usr/local/exelis/license/license.dat
+'3  28  0  ~/.i3/config
+'4  9  23  ~/.vimrc
+'5  10  0  ~/.vimrc
+'6  11  168  ~/.vimrc
+'7  1  0  /mnt/c/Users/ivan/Dropbox/Shared Notes/JD_092117.md
+'8  1  0  ~/.tmp/vim-markdowm.md
+'9  1  0  /mnt/c/Users/ivan/Dropbox/Shared Notes/New note
 
 # Jumplist (newest first):
+-'  1  0  /mnt/c/Users/ivan/Dropbox/Research/adas_input_files/ar_0/hi_erg/omorder/omgorig_level_dat
+-'  1  0  /mnt/c/Users/ivan/Dropbox/Research/adas_input_files/ar_0/hi_erg/omorder/dord
+-'  1  0  /usr/local/exelis/license/license.dat
+-'  28  0  ~/.i3/config
+-'  1  0  ~/.i3/config
 -'  9  23  ~/.vimrc
 -'  1  0  ~/.vimrc
 -'  10  0  ~/.vimrc
@@ -173,16 +234,23 @@
 -'  1  8  /mnt/c/Users/ivan/Documents/Notes/Test Note
 -'  1  0  ~/~.,vimrc
 -'  1  0  ~/~.,vimrc
--'  1  0  ~/~.,vimrc
--'  1  0  ~/~.,vimrc
--'  1  0  ~/~.,vimrc
--'  1  0  ~/~.,vimrc
--'  1  0  ~/.virmc
--'  3  27  /mnt/c/Users/ivan/Dropbox/Shared Notes/AMO/hi_energy_argon.md
--'  1  0  /mnt/c/Users/ivan/Dropbox/Shared Notes/AMO/hi_energy_argon.md
--'  2  0  /mnt/c/Users/ivan/Dropbox/Shared Notes/New note
 
 # History of marks within files (newest to oldest):
+
+> /mnt/c/Users/ivan/Dropbox/Research/adas_input_files/ar_0/hi_erg/omorder/omgorig_level_dat
+	"	1	0
+
+> /mnt/c/Users/ivan/Dropbox/Research/adas_input_files/ar_0/hi_erg/omorder/dord
+	"	1	0
+
+> /usr/local/exelis/license/license.dat
+	"	1	0
+
+> ~/.i3/config
+	"	28	0
+	^	27	39
+	.	27	38
+	+	27	38
 
 > ~/.vimrc
 	"	9	23
